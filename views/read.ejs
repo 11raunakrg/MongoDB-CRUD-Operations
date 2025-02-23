@@ -32,7 +32,9 @@
           <h5 class="text-zinc-400"><%= user.email %></h5>
 
           <div class="mt-5 flex gap-5">
-            <a href="" class="text-zinc-300 font-semibold">Edit User</a>
+            <a href="/edit/<%= user._id %>" class="text-zinc-300 font-semibold"
+              >Edit User</a
+            >
             <a
               href="/delete/<%= user._id %> "
               class="text-red-500 font-semibold"
